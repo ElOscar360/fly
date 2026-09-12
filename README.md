@@ -34,4 +34,4 @@ java -cp bin sinflyweight.Main
 
 Ambas imprimen la memoria usada antes/después de crear el ejército y, al final,
 cuántos objetos se crearon en total. Usa esos números para llenar la tabla
-comparativa que pide el taller (ver `EXPLICACION_WIKI.md`).
+comparativa que pide el taller ver Wiki.
