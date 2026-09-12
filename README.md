@@ -35,18 +35,3 @@ java -cp bin sinflyweight.Main
 Ambas imprimen la memoria usada antes/después de crear el ejército y, al final,
 cuántos objetos se crearon en total. Usa esos números para llenar la tabla
 comparativa que pide el taller (ver `EXPLICACION_WIKI.md`).
-
-## Nota sobre la cantidad de Gunters
-
-El enunciado menciona en un punto "generar 500 PosicionGunter" y en otro
-"simular 100000 Gunters" (y la salida esperada del taller muestra
-`Total de pingüinos simulados: 100000`). Se dejó `TOTAL_GUNTERS = 100_000`
-en ambos `Main` porque coincide con la consigna principal y con la salida
-esperada. Si tu profesor exige literalmente 500, solo cambia esa constante
-al inicio de cada clase `Main`.
-
-## Diagrama UML
-
-El diagrama de clases de la solución (Main, FabricaGunter, PosicionGunter,
-Gunter y sus relaciones) está en la conversación de Claude; expórtalo como
-imagen para subirlo al entregable 1 (Diagrama de Clases UML).
